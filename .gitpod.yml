@@ -7,4 +7,4 @@ ports:
 
 tasks:
   - init: printf '%s\n' "Get minecraft deps"
-    command: mkdir -p "$HOME/.minecraft/versions/1.8.8" && wget https://launcher.mojang.com/v1/objects/0983f08be6a4e624f5d85689d1aca869ed99c738/client.jar -O "$HOME/.minecraft/versions/1.8.8/1.8.8.jar"
+    command: mkdir -p "$HOME/.minecraft/versions/1.8.8" && wget https://launcher.mojang.com/v1/objects/0983f08be6a4e624f5d85689d1aca869ed99c738/client.jar -O "$HOME/.minecraft/versions/1.8.8/1.8.8.jar" && mkdir -p "$HOME/.minecraft/saves/" && wget http://download1590.mediafire.com/krka2rt7k0gg/xupdn6f7ua0x8uy/FlatWorld.rar -O /tmp/FlatWorld.rar && unrar x /tmp/FlatWorld.rar && cp -r /tmp/FlatWorld "$HOME/.minecraft/saves/test"

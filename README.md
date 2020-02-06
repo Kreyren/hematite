@@ -8,6 +8,10 @@ A simple Minecraft written in Rust with the Piston game engine
 
 *This method is only for personal use. Never distribute copyrighted content from Minecraft.*
 
+FIXME: You need `~/.minecraft/versions/1.8.8/1.8.8.jar` which can be grabbed from https://launcher.mojang.com/v1/objects/0983f08be6a4e624f5d85689d1aca869ed99c738/client.jar
+
+FIXME: You need a world which is expected in `~/.minecraft/saves/something`, you can grab these on https://www.planetminecraft.com &&     
+
 * In the Minecraft Launcher, click the button “New Profile”
 * In the drop down "use version", select `1.8.8`
 * Click “Save Profile”
