@@ -4,3 +4,7 @@ image:
 ports:
   - port: 6080
     onOpen: open-preview
+
+tasks:
+  - init: mkdir "$HOME/.minecraft/versions/1.8.8" || exit 1 
+    command: wget https://launcher.mojang.com/v1/objects/0983f08be6a4e624f5d85689d1aca869ed99c738/client.jar -O "$HOME/.minecraft/versions/1.8.8/1.8.8.jar"
